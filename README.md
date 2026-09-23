@@ -1,17 +1,17 @@
 # Capstone-Project
 
-A trivia quiz app built on the jService API. The player is shown questions, earns points for correct answers, and the score (and game) resets on a wrong answer.
+A planned trivia quiz app powered by a trivia API. The player will be shown questions, earn points for correct answers, and the score (and game) will reset on a wrong answer.
 
-## How it works
+## How it will work
 
-1. The app fetches a random trivia question from the jService API.
+1. The app will fetch a random trivia question from a trivia API.
 2. The user submits an answer; a correct answer adds points to the score.
 3. An incorrect answer resets the score and starts a new game.
 
-## Tech
+## Tech (planned)
 
-- jService API (`https://jservice.io`) for trivia questions
-- JavaScript (planned)
+- Trivia question API
+- JavaScript
 
 ## Getting started
 
