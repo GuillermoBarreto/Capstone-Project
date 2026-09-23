@@ -23,3 +23,11 @@ Coming soon — project scaffolding is in progress.
 - [ ] Score tracking and best-score persistence
 - [ ] Game-over reset flow with play-again option
 - [ ] Responsive, accessible quiz UI
+
+
+## Data source note
+
+The original plan used the jService API (`https://jservice.io`), but that
+endpoint no longer responds. A working alternative is the
+[Open Trivia Database](https://opentdb.com) (`https://opentdb.com/api.php`),
+a free trivia API that supports category and difficulty filters.
