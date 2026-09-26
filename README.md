@@ -31,3 +31,31 @@ The original plan used the jService API (`https://jservice.io`), but that
 endpoint no longer responds. A working alternative is the
 [Open Trivia Database](https://opentdb.com) (`https://opentdb.com/api.php`),
 a free trivia API that supports category and difficulty filters.
+
+Example request:
+
+```text
+https://opentdb.com/api.php?amount=1&type=multiple
+```
+
+Example response (`response_code` 0 means success):
+
+```json
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does CPU stand for?",
+      "correct_answer": "Central Processing Unit",
+      "incorrect_answers": [
+        "Central Process Unit",
+        "Computer Personal Unit",
+        "Central Processor Unit"
+      ]
+    }
+  ]
+}
+```
