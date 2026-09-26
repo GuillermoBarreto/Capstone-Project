@@ -24,7 +24,6 @@ Coming soon — project scaffolding is in progress.
 - [ ] Game-over reset flow with play-again option
 - [ ] Responsive, accessible quiz UI
 
-
 ## Data source note
 
 The original plan used the jService API (`https://jservice.io`), but that
