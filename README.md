@@ -29,7 +29,8 @@ Coming soon — project scaffolding is in progress.
 The original plan used the jService API (`https://jservice.io`), but that
 endpoint no longer responds. A working alternative is the
 [Open Trivia Database](https://opentdb.com) (`https://opentdb.com/api.php`),
-a free trivia API that supports category and difficulty filters.
+a free trivia API that supports category and difficulty filters. No API key
+or signup is required for the free OpenTriviaDB tier.
 
 Example request:
 
