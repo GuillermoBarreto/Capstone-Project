@@ -59,3 +59,6 @@ Example response (`response_code` 0 means success):
   ]
 }
 ```
+
+> **Gotcha:** OpenTriviaDB returns HTML entities (e.g. `&quot;`, `&#039;`) in
+> question and answer text, so the app will need to decode them before display.
